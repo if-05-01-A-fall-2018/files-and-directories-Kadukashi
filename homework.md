@@ -5,12 +5,14 @@ b)  262144000 entries
 
 c)  On table entrie must be 32 bit
 
-d)  262144000*4*2 = 2097152000 / 1024 / 1024 / 1024 ~ 2 GB
+d)  262144000*4*2 = 2097152000 / 1024 / 1024 / 1024 = 1,9 GB
 
 ## 2. Random Access of Files
-a) We calculate: 10 * 1024 + 256 * 1024 + 256 * 1024 * 1024 = 268707840 and 107834590
+a) We calculate: 10 * 1024 + 256 * 1024 + 256 * 1024 * 1024 = 268707840 and 107834590 is in 268707840, \
+  so we know it is in the double indirect block but I dont know further
 
-b)
+b) We take the first block-reference in the FAT table and then we need to \
+  go futher times 107.834.590 times in the FAT to get to the block we want
 
 ## 3. UFS (i-node) File Size
   For 4KB: \
