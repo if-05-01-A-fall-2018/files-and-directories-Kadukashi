@@ -13,16 +13,16 @@ a) We calculate: 10 * 1024 + 256 * 1024 + 256 * 1024 * 1024 = 268707840 and 1078
 b)
 
 ## 3. UFS (i-node) File Size
-  For 4KB:
+  For 4KB: \
     10 * 4096 + 4096 * 1024 + 4096 * 1024 * 1024 + 4096 * 1024 * 1024 * 1024 = 4TB
-  For 1KB:
+  For 1KB: \
     10 * 1024 + 1024 * 256 + 1024 * 256 * 256 + 1024 * 256 * 256 * 256 = 17,2GB
 
 ## 4. UFS File Size
-a)  512 byte is not sufficient because the maximum file size could just be 1GB
-  For 512 bytes:
+a)  512 byte is not sufficient because the maximum file size could just be 1GB \
+  For 512 bytes:\
     10 * 512 + 512 * 128 + 512 * 128 * 128 + 512 * 128 * 128 * 128 = 1082201088 byte = 1GB
 
-b)  It wont change the fact that we should use 1024, because 12 GB is still fitting into 17,2GB
-  For 1024 bytes:
+b)  It wont change the fact that we should use 1024, because 12 GB is still fitting \ into 17,2GB
+  For 1024 bytes: \
     10 * 1024 + 1024 * 256 + 1024 * 256 * 256 + 1024 * 256 * 256 * 256 = 17247240192 byte = 17,2GB
