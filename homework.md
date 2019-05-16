@@ -12,7 +12,7 @@ a) We calculate: 10 * 1024 + 256 * 1024 + 256 * 1024 * 1024 = 268707840 and 1078
   so we know it is in the double indirect block but I dont know further
 
 b) We take the first block-reference in the FAT table and then we need to \
-  go futher times 107.834.590 times in the FAT to get to the block we want
+  go futher times 107.834.590 times in the FAT to get to the block we want :D
 
 ## 3. UFS (i-node) File Size
   For 4KB: \
